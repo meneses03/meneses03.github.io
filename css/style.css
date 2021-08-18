@@ -223,7 +223,7 @@ html {
     padding: 20px;
 }
 
-.form {
+#form {
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
@@ -259,3 +259,12 @@ html {
     cursor: pointer;
     box-shadow: 0 0 10px #7703F0;
 }
+
+#error_message{
+    margin-bottom: 20px;
+    background: #fe8b8e;
+    padding: 0px;
+    text-align: center;
+    font-size: 14px;
+    transition: all 0.5s ease;
+  }
